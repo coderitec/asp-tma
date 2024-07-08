@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main >
-      hi everyone
+      <h1>task management application</h1>
     </main>
   );
 }
