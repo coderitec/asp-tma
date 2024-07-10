@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <main className='grid md:grid-cols-2 gap-8'>
+    <main className='grid md:grid-cols-2 gap-8 px-8 py-10'>
         <div className='flex flex-col gap-y-10 items-start'>
             <h1 className='capitalize text-5xl font-semibold'>Manage your tasks Quickly</h1>
             <p className='text-3xl'>Effectively manage your tasks daily, weekly or even yearly, not missing out on anything.</p>
