@@ -1,9 +1,8 @@
 import Image from "next/image";
+import Main from "./components/Main";
 
 export default function Home() {
   return (
-    <main >
-      <h1>task management application</h1>
-    </main>
+   <Main />
   );
 }

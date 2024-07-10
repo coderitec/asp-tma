@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const popp = Poppins({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata = {
   title: "Task management app",
@@ -11,8 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
+      <body className={popp.className}>
+        <Navbar />
+        <div className="min-h-[80vh]">
+
+          {children}
+
+        </div>
+        <Footer />
       </body>
     </html>
   );
