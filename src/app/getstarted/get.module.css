@@ -1,0 +1,50 @@
+.form{
+    background-color: rgb(197, 209, 205);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    width: 70%;
+    border: 5px solid blue;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    padding-block: 20px;
+    background-color: whitesmoke;
+}
+
+.form li{
+    margin-block-start: 20px ;
+    padding-block: 15px;
+    border: 4px solid gray;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+.form input{
+    background-color: transparent;
+    padding-inline: 10px;
+    outline: none;
+    width: 100%;
+}
+
+.form li:last-of-type{
+    text-align: center;
+    background-color: green;
+    color: whitesmoke;
+}
+
+.form legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form input::placeholder{
+    color: blue;
+}
