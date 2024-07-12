@@ -1,0 +1,22 @@
+.table{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.table tr:nth-of-type(even){
+    background-color: aqua;
+    color: #0d0101;
+    border: 5px solid #0d0101;
+}
+.table tr:nth-of-type(odd){
+    border: 5px solid #0d0101;
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.table td, .table th{
+    padding: 20px;
+}

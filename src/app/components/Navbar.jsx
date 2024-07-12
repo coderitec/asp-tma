@@ -25,7 +25,7 @@ export default function Navbar() {
                 <Link href='/about'>About</Link>
             </li>
             <li>
-                <Link href='/contact'>Contact</Link>
+                <Link href='/dashboard'>Dashboard</Link>
             </li>
             <li>
                 <Link href='/getstarted' className='bg-green-900 py-2 px-4 rounded-md shadow-lg text-center text-white'>Get Started</Link>
