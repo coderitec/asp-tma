@@ -33,7 +33,7 @@ const TaskManager = () => {
       <div>
         <h1>Task Manager</h1>
         <ul>
-          {tasks.data.map(task => (
+          {tasks.map(task => (
             <li key={task.id}>
               <h2>{task.title}</h2>
               <p>{task.description}</p>

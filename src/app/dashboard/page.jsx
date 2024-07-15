@@ -28,8 +28,8 @@ export default function Dashboard() {
         :
         (
           tasks.map(task => (
-            <TaskItem key={task.id} task={task} />
-            // <TaskManager key={task.id}/>
+            // <TaskItem key={task.id} task={task} />
+            <TaskManager key={task.id}/>
           ))
         )}
       </tbody>
